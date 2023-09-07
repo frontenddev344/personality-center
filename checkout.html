@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Check-Out</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+
+<body class="header">
+
+    <header id="myHeader" class="header_section fixed-top">
+        <div class="mid_menu_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="header_logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="Logo" /></a>
+                        </div>
+                    </div>
+                    <div class="col-6 text-left menus">
+                        <div class="header_navigation">
+                            <div id="mySidenavs" class="sidenavs">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <ul class="menu_navigation">
+                                    <li class=""><a href="theory.html">Theory</a>
+
+                                    </li>
+                                    <li><a href="personalities-types.html">16 Personality Types</a></li>
+                                    <li><a href="#">Resources</a></li>
+                                </ul>
+
+                            </div>
+                            <span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-3 text-left menus">
+                        <div class="last-mains">
+                            <div class="btns-top">
+                                <a href="login.html" class="btn btns-border">log in</a>
+                                <a href="free-personality-test.html" class="btn dark-btns">Take the test</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sub-banner login-page">
+        <div class="container  wow  wow fadeInUp">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="fst-left">
+                        <h1>Check-out</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="curve-shape">
+            <img src="images/Intersect.png" alt="img">
+        </div>
+    </section>
+
+    <!-- check out bar -->
+    <section class="checkOutBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="checkOutLeft">
+                        <div class="cartSummeryHeading">
+                            <h4>Billing details</h4>
+                        </div>
+                        <div class="billingDetailForm">
+                            <form action="">
+                                <input type="text" class="fname" placeholder="First name">
+                                <input type="text" class="fname" placeholder="Last name">
+                                <input type="text" class="cname" placeholder="Company name (optional)">
+                                <br>
+                                <!-- <label for="">Country / Region </label>
+                                <label for="">Street address</label> -->
+                                <!-- <input type="text" class="cname" placeholder="House number & street name">
+                                <input type="text" class="cname" placeholder="Apartment (optional)"> -->
+                                <input type="text" class="cname" placeholder="Phone number">
+                                <input type="email" class="cname" placeholder="Email address">
+                                <input type="text" class="cname" placeholder="State">
+                                <input type="text" class="cname" placeholder="Zip code">
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="checkOutRight">
+                        <div class="cartSummeryHeading">
+                            <h4>How would you like to pay ?</h4>
+                        </div>
+                        <!-- <div class="cartSummeryData proCategeris">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Product</th>
+                                        <td>PSA PA-15 16"NITRIDE M4 CARBINE 5.56 NATO MOE AR-15 RIFLE, OD GREEN</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Subtotal</th>
+                                        <td>$0.85</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Shipping</th>
+                                        <td>	
+                                            Flat rate: $30.00</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Total</th>
+                                        <td>$30.85 (includes $0.08 GST)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> -->
+                        <div class="creditCardInfo">
+                            <div class="paypal">
+                                <div class="radio m-0">
+                                    <input id="radio-2" name="radio" type="radio">
+                                    <label for="radio-2" class="radio-label"><span class="paypal-img"><img
+                                                src="./images/paypal.png" alt="paypal icon"></span></label>
+                                </div>
+                            </div>
+                            <form action="">
+
+                                <div class="radio m-0 cr-redio">
+                                    <input id="radio-1" name="radio" type="radio">
+                                    <label for="radio-1" class="radio-label">
+                                        <span class="paypal-img"></span>
+                                    </label>
+
+                                    <ul class="cars-option">
+                                        <li>
+                                            <a href="">
+                                                <img src="./images/visa.png" alt="visa">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="./images/credit-card.png" alt="credit-card">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="./images/american-express.png" alt="american-express">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                <img src="./images/discover.png" alt="discover">
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <label for="car-nu" class="cr-lebl">Card Number</label>
+                                <input type="text" class="cardNm" placeholder="1234 1234 1234 1234" id="car-nu">
+                                <div class="crData">
+                                    <label for="ex-dt" class="cr-lebl">Expiry Date</label>
+                                    <input type="text" class="expriydt" placeholder="24 / 02" id="ex-dt">
+                                </div>
+                                <div class="crData">
+                                    <label for="cr-cd" class="cr-lebl">Card Code (CVC)</label>
+                                    <input type="text" class="expriydt" placeholder="123" id="cr-cd">
+                                </div>
+                                <a href="" class="btn input-btn">Pay & Download</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- check out bar -->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!--div class="col-md-4">
+		<div class="main-addrs">
+			<h3>MyPersonality Test </h3>
+			<p class="copyright">MyPersonalityTest2023</p>
+		</div>
+      </div-->
+                <div class="col-md-12">
+                    <div class="rqst-mm">
+                        <ul>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--div class="col-md-4">
+		<div class="rqst-mm">
+			<h4>Contact</h4>
+			<ul>
+				<li><a href="#">contact@mypersonalitytest.Com</a></li>
+			</ul>
+		</div>
+      </div-->
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
+
+    <script>
+        // Helper function for add element box list in WOW
+        WOW.prototype.addBox = function (element) {
+            this.boxes.push(element);
+        };
+
+        // Init WOW.js and get instance
+        var wow = new WOW({
+        });
+        wow.init();
+
+        // Attach scrollSpy to .wow elements for detect view exit events,
+        // then reset elements and add again for animation
+        $(".wow")
+            .on("scrollSpy:exit", function () {
+                $(this)
+                    .css({
+                        visibility: "hidden",
+                        "animation-name": "none",
+                    })
+                    .removeClass("animated");
+                wow.addBox(this);
+            })
+            .scrollSpy();
+
+
+        function openNav() {
+            document.getElementById("mySidenavs").style.width = "280px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenavs").style.width = "0";
+        }
+    </script>
+
+
+</body>
+
+</html>
